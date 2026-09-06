@@ -1,25 +1,25 @@
 class W3 < Formula
   desc "A fast CLI for git worktrees, built for humans and coding agents who work on many branches at once."
   homepage "https://github.com/azataiot/w3"
-  version "0.1.0-alpha.2"
+  version "0.1.0-alpha.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/azataiot/w3/releases/download/v0.1.0-alpha.2/w3-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "c937c7cda8b4f8a5b3aac72722081325f588894fcb043e512b256fb5faca90bc"
+      url "https://github.com/azataiot/w3/releases/download/v0.1.0-alpha.3/w3-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "402ed3177302dcb7cd52cd86ce45d6defad69c40270db4f9dbb69438b6a9b0c9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/azataiot/w3/releases/download/v0.1.0-alpha.2/w3-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "e0ca50612a209b23b82c7d48b1ff30a6decf9968d8b54cae91a884a717de3cd3"
+      url "https://github.com/azataiot/w3/releases/download/v0.1.0-alpha.3/w3-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "e6c612641d43adb529f5a8f3e10d9a35870e3c19f178e5b170670146c68f041f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/azataiot/w3/releases/download/v0.1.0-alpha.2/w3-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "84d6da3008b2f3061462a0246c63ca5b058d66935635ef506430caedcbe74649"
+      url "https://github.com/azataiot/w3/releases/download/v0.1.0-alpha.3/w3-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "1aa62e0cfdfd592932d5cf80794f83ce2c04f3a72bf9b3c15719d4b277fcbe23"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/azataiot/w3/releases/download/v0.1.0-alpha.2/w3-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "bcaceb716cee631101f8b9424aa3cd17101eb36133ccd2cfd85647d14e6c2039"
+      url "https://github.com/azataiot/w3/releases/download/v0.1.0-alpha.3/w3-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "6d582409a17306fc3b463cca6bb78416eb1b1b4a5992146c82655ff702ad2f57"
     end
   end
   license "MIT"
